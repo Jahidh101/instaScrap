@@ -10,7 +10,6 @@ import pandas as pd
 
 if __name__ == "__main__":
     options = uc.ChromeOptions()
-    options.add_argument("--auto-open-devtools-for-tabs")
     driver = uc.Chrome(options=options)
     # driver.maximize_window()
     # sleep(5)
